@@ -1,0 +1,148 @@
+@media only screen and (max-width: 992px) {
+  .menu-block {
+    padding: 10px !important;
+}
+main .heading-xl {
+  font-size: 35px;
+}
+.brand-img {
+  position: relative;
+  top: 0px;
+  padding-left: 10px;
+}
+
+.create-content {
+  padding: 20px 0;
+}
+
+section.brand-section.margin-box .container {
+  height: auto;
+}
+section.brand-section {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+ ul {
+  padding-left: 0 !important;
+}
+.mobile-box {
+  margin-bottom: 30px;
+}
+
+.choose .content-box ul {
+  column-count: 1;
+}
+h2.heading-cls {
+  font-size: 22px;
+}
+
+.testi-img {
+  margin-bottom: 40px;
+}
+
+.container.foot_cont .row{
+  display: block;
+}
+footer ul {
+  padding-left: 15px !important;
+}
+.fot-logo img {
+  width: 75%;
+}
+.fot-logo {
+ margin-bottom: 30px;
+}
+.headfot-box {
+  margin-bottom: 30px;
+}
+  }
+  @media only screen and (max-width: 992px) {
+    .top-head-icon ul {
+      display: flex;
+      gap: 9px;
+      justify-content: end;
+      flex-direction: column;
+  }
+  a.navbar-brand {
+    width: 30%;
+}
+button.navbar-toggler {
+  color: #000;
+  background: #ffff;
+}
+header ul li img {
+  width: 10%;
+}
+  }
+  @media only screen and (min-width: 48rem) {
+    .banner-image {
+      order: 1;
+      max-width: 20rem;
+      height: auto;
+   }
+  }
+  @media only screen and (max-width: 768px) {
+    .menu-block {
+      margin-left:  0 !important; 
+  }
+  }
+
+  @media only screen and (min-width: 64rem) {
+    .banner-image {
+      max-width: 25rem;
+      height: auto;
+      margin-right: 5rem;
+   }
+  }
+
+  @media only screen and (min-width: 48rem) {
+    .banner-column {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      justify-content: center;
+   }
+  }
+  @media only screen and (min-width: 64rem) {
+    .banner-column {
+      grid-template-columns: 1fr max-content;
+      column-gap: 4rem;
+      margin-top: 3rem;
+   }
+  }
+  @media only screen and (min-width: 48rem) {
+    .burger {
+      display: none;
+      visibility: hidden;
+   }
+  }
+
+  @media only screen and (min-width: 48rem) {
+    .menu {
+      position: relative;
+      top: 0;
+      width: auto;
+      height: auto;
+      padding: 0rem;
+      margin-left: auto;
+      background: none;
+      box-shadow: none;
+   }
+    .menu-inner {
+      display: flex;
+      flex-direction: row;
+      column-gap: 2rem;
+      margin: 0 auto;
+   }
+    .menu-link {
+      text-transform: capitalize;
+   }
+    .menu-block {
+      margin-left: 2rem;
+   }
+  }
+  @media only screen and (min-width: 64rem) {
+    .banner-links {
+      opacity: 1;
+      visibility: visible;
+   }
+  }
